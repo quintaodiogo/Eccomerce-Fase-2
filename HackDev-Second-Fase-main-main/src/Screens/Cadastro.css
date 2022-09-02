@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.box0 {
+  text-align: center;
+  width: 800px;
+}
+.box1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.fisica {
+  width: 300px;
+}
+
+.juridica {
+  width: 300px;
+}
+
+.endereco {
+  width: 300px;
+}
+
+.subTitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+label {
+  font-size: 13px;
+}
+
+input {
+  width: 240px;
+}
+
+input[type="text"] {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.1),
+    0 2px 6px 2px rgba(60, 64, 67, 0.1);
+}
+
+input[type="radio"] {
+  margin: 0px 10px 15px 10px;
+  width: 15px;
+  height: 15px;
+}
+
+p {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.bt {
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
